@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Galería Principal</title>
+<!--***** Paso #1: jQuery (motor)-->
+<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
+<!--***** Paso #2: Galería Slidorion (vehículo)-->
+<script type="text/javascript" src="../js/jquery.easing.js"></script>
+<script type="text/javascript" src="../js/jquery.slidorion.js"></script>
+<link href="../css/slidorion.css" rel="stylesheet" type="text/css" />
+<!--***** Paso #4: inicialización de la galería (encendido)-->
+<script>
+	$(function() {
+		$('#slidorion').slidorion({
+			effect: 'slideRandom',
+			first: 2,
+			autoPlay: true,
+			hoverPause: true,
+			easing: 'easeOutElastic',
+  			speed:  1000,
+		  interval: 3000
+		});
+	});
+</script>
+</head>
+
+<body>
+<!--***** Paso #3: Estructura de la galería (carrocería)-->
+<div id="slidorion"> 
+  <!-- Caja que contiene las imágenes que aparecen en la portada -->
+  
+  <div id="slider"> 
+    <!-- Las tres cajas que siguen contienen una imagen cada una-->
+    <div id="slide1" class="slide"> <img src="galeria_chica/imagen01.jpg" width="620" height="340" /> </div>
+    <!-- Caja con la foto #1 -->
+    <div id="slide2" class="slide"> <img src="galeria_chica/imagen02.jpg" width="620" height="340" /> </div>
+    <!-- Caja con la foto #2 -->
+    <div id="slide3" class="slide"> <img src="galeria_chica/imagen03.jpg" width="620" height="340" /></div>
+    <!-- Caja con la foto #3 --> 
+  </div>
+  
+  <!-- Caja que contiene el "acordeón" con la información textual para las imágenes de la galería-->
+  <div id="accordion"> 
+    
+    <!-- Esta caja contiene el título de la foto #1 -->
+    <div class="link-header">Arquitectura e Ingeniería</div>
+    <!-- Esta caja contiene el párrafo informativo de la foto #1 -->
+    <div class="link-content">
+      <p>Donec sed massa vitae elit laoreet feugiat. Cras adipiscing porta enim a fringilla. Aenean tempor blandit velit, a porta odio feugiat non. Proin eu tortor at purus faucibus vestibulum. Cum sociis natoque.</p>
+    </div>
+    
+    <!-- Esta caja contiene el título de la foto #2 -->
+    <div class="link-header">El cristal</div>
+    <!-- Esta caja contiene el párrafo informativo de la foto #2 -->
+    <div class="link-content">
+      <p>In commodo euismod nisi, a suscipit ligula scelerisque at. Quisque convallis risus tellus, ac venenatis turpis. Aliquam tristique, lectus ac iaculis dictum, sem mi scelerisque magna, id condimentum massa elit vitae arcu.</p>
+    </div>
+    
+    <!-- Esta caja contiene el título de la foto #3 -->
+    <div class="link-header">Obras de arte históricas</div>
+    <!-- Esta caja contiene el párrafo informativo de la foto #3 -->
+    <div class="link-content">
+      <p>Mauris semper euismod leo, ut placerat lacus imperdiet ac. Ut porttitor ante vel quam iaculis ut mollis ipsum pretium. Quisque sodales urna id lectus viverra facilisis vitae in ipsum. Suspendisse neque sapien.</p>
+    </div>
+    
+  </div>
+</div>
+
+
+</body>
+</html>

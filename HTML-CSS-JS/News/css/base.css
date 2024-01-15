@@ -1,0 +1,68 @@
+@charset "utf-8";
+#fondo {
+	width: 100%;
+}
+#encabezadoEnvoltura  {
+	float: left;
+	height: 120px;
+	width: 100%;
+	background-image: url(../images/textura_encabezado.png);
+	background-repeat: repeat-x;
+}
+
+
+
+
+#encabezado {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#encabezado #logotipo {
+	float: left;
+	width: 960px;
+}
+#encabezado #navegacion {
+	float: left;
+	width: 960px;
+}
+
+#contenidoEnvoltura {
+	background-image: url(../images/textura_contenido.png);
+	background-repeat: repeat-x;
+	float: left;
+	width: 100%;
+	background-color: #F2F2F2;
+}
+#contenido  {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+#contenido #portada {
+	background-image: url(../images/textura_portada.png);
+	background-repeat: repeat-x;
+	float: left;
+	height: 380px;
+	width: 960px;
+}
+
+#contenido #informacion {
+	float: left;
+	width: 920px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 50px;
+	padding-left: 20px;
+}
+
+
+#pieDePagina {
+	background-image: url(../images/textura_pie.jpg);
+	background-repeat: repeat-x;
+	float: left;
+	height: 60px;
+	width: 100%;
+}

@@ -1,0 +1,24 @@
+@charset "utf-8";
+.miniatura {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 5px solid #999;
+}
+
+.miniatura:hover {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 5px solid #F60;
+}
+.miniaturaLateral {
+	margin-right: 8px;
+	margin-bottom: 8px;
+	border: 5px solid #999;
+	height: 60px;
+	width: 60px;
+}
+.miniaturaLateral:hover {
+	margin-right: 8px;
+	margin-bottom: 8px;
+	border: 5px solid #F60;
+}

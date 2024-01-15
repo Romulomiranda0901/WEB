@@ -1,0 +1,46 @@
+@charset "utf-8";
+#titulo enboltura {
+	float: left;
+	width: 100%;
+}
+#titulo {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #FFF;
+	padding: 20px;
+	width: 920px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#informacion emboltura {
+	background-image: url(../images/textura_informacion.png);
+	background-repeat: repeat-x;
+	float: left;
+	width: 100%;
+	background-color: #FFF;
+}
+#informacion {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #333;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #CCC;
+}
+#informacion principal {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #333;
+	background-color: #FFF;
+	width: 560px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	border: 1px solid #CCC;
+}

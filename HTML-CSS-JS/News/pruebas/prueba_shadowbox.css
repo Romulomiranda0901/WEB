@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+a img {
+	border: none;
+}
+.miniatura {
+	border: 5px solid #CCC;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.miniatura:hover {
+	border: 5px solid #F90;
+	cursor: pointer;
+}

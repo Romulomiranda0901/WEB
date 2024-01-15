@@ -1,0 +1,13 @@
+@charset "utf-8";
+#informacion .youtube {
+	float: left;
+	width: 306px;
+}
+#informacion .facebook {
+	float: right;
+	width: 306px;
+}
+#portada {
+	padding-top: 20px;
+	padding-left: 20px;
+}
