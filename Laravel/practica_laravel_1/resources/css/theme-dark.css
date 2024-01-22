@@ -1,0 +1,13 @@
+[data-bs-theme=dark] {
+  --bs-heading-color: #dee2e6;
+  
+  --danger-color: #410909;
+  --danger-bg: #ffa9a9;
+  --danger-bg-hover: #fee2e2;
+  --success-color: #083a29;
+  --success-bg: #a4ffd5;
+  --success-bg-hover: #d1fae5;
+  --primary-color: #0f2242;
+  --primary-bg: #8fbfff;
+  --primary-bg-hover: #dbeafe;
+}

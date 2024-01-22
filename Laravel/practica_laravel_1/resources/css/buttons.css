@@ -1,0 +1,40 @@
+.tarea-button {
+  display: inline-flex;
+  padding: 5px;
+}
+
+.btn-danger {
+  --bs-btn-color: var(--danger-color);
+  --bs-btn-bg: var(--danger-bg);
+  --bs-btn-border-color: var(--danger-color);
+  --bs-btn-hover-color: var(--danger-color);
+  --bs-btn-hover-bg: var(--danger-bg-hover);
+  --bs-btn-hover-border-color: var(--danger-color);
+  --bs-btn-active-color: var(--danger-color);
+  --bs-btn-active-bg: var(--danger-bg-hover);
+  --bs-btn-active-border-color: var(--danger-color);
+}
+
+.btn-success {
+  --bs-btn-color: var(--success-color);
+  --bs-btn-bg: var(--success-bg);
+  --bs-btn-border-color: var(--success-color);
+  --bs-btn-hover-color: var(--success-color);
+  --bs-btn-hover-bg: var(--success-bg-hover);
+  --bs-btn-hover-border-color: var(--success-color);
+  --bs-btn-active-color: var(--success-color);
+  --bs-btn-active-bg: var(--success-bg-hover);
+  --bs-btn-active-border-color: var(--success-color);
+}
+
+.btn-primary {
+  --bs-btn-color: var(--primary-color);
+  --bs-btn-bg: var(--primary-bg);
+  --bs-btn-border-color: var(--primary-color);
+  --bs-btn-hover-color: var(--primary-color);
+  --bs-btn-hover-bg: var(--primary-bg-hover);
+  --bs-btn-hover-border-color: var(--primary-color);
+  --bs-btn-active-color: var(--primary-color);
+  --bs-btn-active-bg: var(--primary-bg-hover);
+  --bs-btn-active-border-color: var(--primary-color);
+}

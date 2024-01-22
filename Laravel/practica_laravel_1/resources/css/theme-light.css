@@ -1,0 +1,14 @@
+[data-bs-theme=light] {
+  --bs-heading-color: #495057;
+  --bs-secondary-color: #777777;
+  
+  --danger-color: #ef4444;
+  --danger-bg: #fef2f2;
+  --danger-bg-hover: #fee2e2;
+  --success-color: #10b981;
+  --success-bg: #ecfdf5;
+  --success-bg-hover: #d1fae5;
+  --primary-color: #3b82f6;
+  --primary-bg: #eff6ff;
+  --primary-bg-hover: #dbeafe;
+}
