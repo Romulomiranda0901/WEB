@@ -1,0 +1,14 @@
+[
+    {
+        "sede_id": 1,
+        "coordinador_id": 1,
+        "max_participacion": 50,
+        "anyo": 2022
+    },
+    {
+        "sede_id": 2,
+        "coordinador_id": 2,
+        "max_participacion": 250,
+        "anyo": 2022
+    }
+]
