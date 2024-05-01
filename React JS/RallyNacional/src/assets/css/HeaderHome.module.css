@@ -1,0 +1,76 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image:  -webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../Img/Img1.jpg);
+    background-image:  -moz-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../Img/Img1.jpg);
+    background-image:  -ms-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../Img/Img1.jpg);
+    background-image:  -o-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../Img/Img1.jpg);
+    background-image:  linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../Img/Img1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+
+
+.logo{
+    width: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.navbar{
+    height: 12;
+    display: flex;
+    align-items: center;
+}
+
+.navbar > nav {
+    flex: 1;
+    text-align: right;
+}
+
+.navbar > nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-style: italic;
+    transition: all ease-in-out .4s;
+}
+
+.link:hover {
+    color: rgb(197, 55, 55);
+}
+
+.prev {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.prev > div {
+    flex-basis: 80%;
+}
+
+.prev > div > h1 {
+    color: #fff;
+    font-size: 80px;
+}
+
+.prev > div > p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.btnMenu > .icono {
+    color: #fff;
+    display: none;
+}

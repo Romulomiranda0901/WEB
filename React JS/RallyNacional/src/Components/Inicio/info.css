@@ -1,0 +1,31 @@
+.img-one{
+    background: url('/src/assets/Img/institucionees.png') center center/cover no-repeat;
+    height: 290px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+}
+.img-two{
+    background: url('/src/assets/Img/aboutus.png') center center/cover no-repeat; 
+    height: 290px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    
+}
+.img-three{
+    background: url('/src/assets/Img/download.png') center center/cover no-repeat;
+    height: 290px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+}
