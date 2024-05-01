@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">KnowinguS</string>
+
+    //lennox
+    <string name="btn_cerrar">cerrrar secion</string>
+    <string name="title_activity_inicio">InicioActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_map">mapas</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_perfil">cuenta</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
