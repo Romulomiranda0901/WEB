@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #343a40;
+  padding: 20px;
+  color: white;
+}
+
+nav {
+  margin: 20px;
+}
+
+nav button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #61dafb;
+  border: none;
+  cursor: pointer;
+}
+
+form {
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
