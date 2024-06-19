@@ -1,0 +1,26 @@
+
+.custom-navbar {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 1.5rem;
+}
+
+.custom-nav-link {
+    color: #fff;
+    margin-right: 15px;
+}
+
+.custom-dropdown .dropdown-menu {
+    background-color: #444;
+    border: none;
+}
+
+.custom-dropdown .dropdown-item {
+    color: #fff; /* Color del texto de los ítems del submenú */
+}
+
+.custom-navbar .nav-item:hover .custom-dropdown {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}

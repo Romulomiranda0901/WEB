@@ -1,0 +1,94 @@
+header, footer
+{
+    background: #772D2F !important;
+    color: #FFF;
+
+}
+header
+{
+    color: #FFF;
+    font-family: Inter;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 3rem;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.badge {
+    border-radius: 0.125rem;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1;
+    padding: 0.375rem 0.5625rem;
+    font-weight: 500;
+}
+
+.custom-label {
+    display: inline-block;
+    margin-bottom: 0.5rem !important;
+}
+
+.table td .badge, .table th .badge {
+    margin-bottom: 0;
+}
+.badge-danger {
+    border: 1px solid #fe7c96;
+    background-color:  #fe7c96;;
+    color: #fff;
+}
+.thumbnail .badge.badge-busy {
+    border: 1px solid #fed713;
+    background-color: #fed713;
+    color: #fff;
+}
+
+.badge-info, .preview-list .preview-item .preview-thumbnail .badge.badge-offline {
+    border: 1px solid #198ae3;
+    background-color: #198ae3;
+    color: #fff;
+}
+
+
+.badge-success, .preview-list .preview-item .preview-thumbnail .badge.badge-online {
+    border: 1px solid #1bcfb4;
+    background-color: #1bcfb4;;
+    color: #fff;
+}
+
+.contenedor_buscador {
+    position: relative;
+}
+
+.search-container {
+    position: relative;
+}
+
+.fa-search {
+    position: absolute;
+    right: 10px; /* Ajusta la posición según tus necesidades */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+ select
+ {
+     height: 44px;
+ }
+.form_botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh; /* O ajusta la altura según tus necesidades */
+}
+.container
+{
+    margin-bottom: 10rem;
+}
