@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ItemList = ({ fields, items, onEdit, onDelete, onSearch, search }) => {
+const ItemList = ({ fields, items, onEdit, onDelete, onSearch, search, showEditForm, showDeleteForm }) => {
     const tableFields = fields.filter(field => field.showInTable);
 
     return (
@@ -57,19 +57,23 @@ const ItemList = ({ fields, items, onEdit, onDelete, onSearch, search }) => {
                                 {/* Columna de acciones */}
                                 <td className="py-2 px-4 text-sm text-gray-700 space-x-2">
                                     {/* Botón Editar */}
+                                    {showEditForm && (
                                     <button
                                         onClick={() => onEdit(item)}
                                         className="inline-flex justify-center rounded-md border border-transparent shadow-sm px-2 py-1 bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                                     >
                                         Editar
                                     </button>
+                                    )}
                                     {/* Botón Eliminar */}
+                                    {showDeleteForm && (
                                     <button
                                         onClick={() => onDelete(item.id)}
                                         className="inline-flex justify-center rounded-md border border-transparent shadow-sm px-2 py-1 bg-red-600 text-white text-sm font-medium hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
                                     >
                                         Eliminar
                                     </button>
+                                    )}
                                 </td>
                             </tr>
                         ))
